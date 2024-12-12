@@ -1,7 +1,43 @@
+:root {
+    /* Set colors */
+  --yellow: #f4d04e;
+  --gray-950: #111111;
+  --Gray-500: #6b6b6b;
+  /* set font weight */
+  --medium: 500;
+  --extra-bold: 900;
+}
+
+body {
+    font-family: "Figtree", serif;
+    line-height: 150%;
+}
+
+.text-preset-1 {
+  font-size: 24px;
+  font-weight: var(--extra-bold);
+}
+
+.text-preset-2 {
+  font-size: 16px;
+  font-weight: var(--medium);
+}
+
+.text-preset-3 {
+  font-size: 14px;
+  font-weight: var(--medium);
+}
+
+.text-preset-3-bold {
+    font-size: 14px;
+    font-weight: var(--extra-bold);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+  background-color: y;
 }
