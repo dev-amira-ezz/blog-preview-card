@@ -11,6 +11,11 @@
 body {
     font-family: "Figtree", serif;
     line-height: 150%;
+    /* Flexbox settings */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .text-preset-1 {
@@ -31,6 +36,23 @@ body {
 .text-preset-3-bold {
     font-size: 14px;
     font-weight: var(--extra-bold);
+}
+
+.card {
+  /* Set size */
+  width: 327px;
+  height: 501px;
+  /* Set border */
+  border: 1px solid var(--gray-950);
+  border-radius: 20px;
+  /* Set flexbox settings */
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.author {
+  display: flex;
 }
 
 .attribution {
