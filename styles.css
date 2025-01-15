@@ -3,12 +3,15 @@
   --yellow: #f4d04e;
   --gray-950: #111111;
   --Gray-500: #6b6b6b;
+  --white: #ffffff;
   /* set font weight */
   --medium: 500;
   --extra-bold: 900;
 }
 
 body {
+    height: 100vh;
+    background-color: var(--yellow);
     font-family: "Figtree", serif;
     line-height: 150%;
     /* Flexbox settings */
@@ -39,6 +42,7 @@ body {
 }
 
 .card {
+  background-color: var(--white);
   /* Set size */
   width: 327px;
   height: 501px;
@@ -49,10 +53,42 @@ body {
   display: flex;
   flex-direction: column;
   padding: 24px;
+  gap: 24px;
+}
+
+.featured-image {
+  border-radius: 10px;
+  width: 100%;
+  height: 200px;
+  margin: auto;
+} 
+
+main {
+  gap: 12px;
 }
 
 .author {
   display: flex;
+}
+
+.tag {
+  display: inline-block;
+  background-color: var(--yellow);
+  padding: 4px 12px;
+  border-radius: 2px;
+  margin: 0;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: -24px;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
 }
 
 .attribution {

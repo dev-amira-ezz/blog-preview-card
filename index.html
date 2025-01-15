@@ -1,65 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <!-- displays site properly based on user's device -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="A preview card for a blog containing essential information about it."
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/images/favicon-32x32.png"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <!-- Add Google font FigTree -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Figtree:wght@300..900&display=swap"
-      rel="stylesheet"
-    />
-    <title>Frontend Mentor | Blog preview card</title>
-  </head>
-  <body>
-    <article class="card">
-      <header>
-        <img
-          src="assets/images/illustration-article.svg"
-          alt="HTML & CSS artistic illustration"
-        />
-        <p class="text-preset-3-bold">Learning</p>
-        <p class="text-preset-3">
-          Published <time datetime="2023-12-21">21 Dec 2023</time>
-        </p>
-      </header>
-      <main>
-        <h1 class="text-preset-1">HTML & CSS foundations</h1>
-        <p class="text-preset-2">
-          These languages are the backbone of every website, defining structure,
-          content, and presentation.
-        </p>
-      </main>
-      <footer class="author">
-        <img
-          src="assets/images/image-avatar.webp"
-          alt="Avatar of article author Greg Hooper"
-        />
-        <p class="text-preset-3-bold">Greg Hooper</p>
-      </footer>
-    </article>
-    <footer>
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by
-        <a href="https://github.com/dev-amira-ezz" target="_blank">Amira Ezz</a
-        >.
-      </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A preview card for a blog containing essential information about it." />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Add Google font FigTree -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300..900&display=swap" rel="stylesheet" />
+  <title>Frontend Mentor | Blog preview card</title>
+</head>
+
+<body>
+  <article class="card">
+    <header>
+      <img class="featured-image" src="assets/images/illustration-article.svg" alt="HTML & CSS artistic illustration" />
+    </header>
+    <main>
+      <p class="text-preset-3-bold tag">Learning</p>
+      <p class="text-preset-3">
+        Published <time datetime="2023-12-21">21 Dec 2023</time>
+      </p>
+      <h1 class="text-preset-1">HTML & CSS foundations</h1>
+      <p class="text-preset-2">
+        These languages are the backbone of every website, defining structure,
+        content, and presentation.
+      </p>
+    </main>
+    <footer class="author">
+      <img class="avatar" src="assets/images/image-avatar.webp" alt="Avatar of article author Greg Hooper" />
+      <p class="text-preset-3-bold">Greg Hooper</p>
     </footer>
-  </body>
+  </article>
+  <footer>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
+      <a href="https://github.com/dev-amira-ezz" target="_blank">Amira Ezz</a>.
+    </div>
+  </footer>
+</body>
+
 </html>
