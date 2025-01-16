@@ -42,6 +42,9 @@ body {
 }
 
 .card {
+  /* Shadow */
+  box-shadow: 8px 8px black;
+  /* background */
   background-color: var(--white);
   /* Set size */
   max-width: 327px;
