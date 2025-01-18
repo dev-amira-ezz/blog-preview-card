@@ -1,5 +1,5 @@
 :root {
-    /* Set colors */
+  /* Set colors */
   --yellow: #f4d04e;
   --gray-950: #111111;
   --Gray-500: #6b6b6b;
@@ -10,15 +10,16 @@
 }
 
 body {
-    height: 100vh;
-    background-color: var(--yellow);
-    font-family: "Figtree", serif;
-    line-height: 150%;
-    /* Flexbox settings */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: var(--yellow);
+  font-family: "Figtree", serif;
+  line-height: 150%;
+  /* Flexbox settings */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .text-preset-1 {
@@ -37,8 +38,8 @@ body {
 }
 
 .text-preset-3-bold {
-    font-size: 14px;
-    font-weight: var(--extra-bold);
+  font-size: 14px;
+  font-weight: var(--extra-bold);
 }
 
 .card {
@@ -63,15 +64,28 @@ body {
   border-radius: 10px;
   width: 100%;
   height: 200px;
-  margin: auto;
-} 
+  margin-bottom: -1rem;
+}
 
 main {
   gap: 12px;
 }
 
 .author {
+  width: 200px;
   display: flex;
+  margin-top: -2rem;
+}
+
+.avatar:hover, .avatar:focus {
+  background-color: var(--yellow);
+  padding: 0.25rem;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+.title, .tag, .author-name {
+  color: var(--gray-950);
+  text-decoration: none;
 }
 
 .tag {
@@ -80,6 +94,29 @@ main {
   padding: 4px 12px;
   border-radius: 2px;
   margin: 0;
+
+}
+
+.title {
+  width: fit-content;
+  padding: 0.25rem;
+  border-radius: 2px;
+}
+
+.author-name {
+  color: var(--gray-950);
+  padding: 0.25rem;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+.title:hover,
+.title:focus,
+.tag:hover,
+.tag:focus,
+.author-name:hover,
+.author-name:focus {
+  background-color: var(--gray-950);
+  color: var(--yellow);
 }
 
 footer {
@@ -88,6 +125,7 @@ footer {
   gap: 0.5rem;
   margin-top: -24px;
 }
+
 
 .avatar {
   width: 32px;
@@ -98,7 +136,7 @@ footer {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
-  background-color: y;
 }
