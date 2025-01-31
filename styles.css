@@ -139,3 +139,24 @@ main {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+/* Media queries for small, landscape screens */
+@media only screen and (orientation: landscape) and (max-width: 992px) {
+
+.card {
+  min-width: 75%;
+  max-height: 75dvh;
+  flex-direction: row;
+}
+
+.featured-image {
+  width: 200px;
+  height: 100%;
+  margin-bottom: 0;
+}
+
+.description {
+  line-height: 1rem;
+  width: 100%;
+}
+}
