@@ -16,24 +16,22 @@
 </head>
 
 <body>
-  <main class="card">
-    <header>
+  <main id="card" class="card">
       <img class="featured-image" src="assets/images/illustration-article.svg" alt="HTML & CSS artistic illustration"
         width="336" height="200" />
-    </header>
-    <main class="main-content">
+    <article class="main-content">
       <p class="text-preset-3-bold">
         <a class="tag clickable" href="#">Learning</a>
       </p>
       <p class="text-preset-3">
         Published <time datetime="2023-12-21">21 Dec 2023</time>
       </p>
-      <h1 class="text-preset-1"><a href="#" class="title clickable">HTML & CSS foundations</a></h1>
+      <h1 aria-labelledby="card" class="text-preset-1"><a href="#" class="title clickable">HTML & CSS foundations</a></h1>
       <p class="text-preset-2 description">
         These languages are the backbone of every website, defining structure,
         content, and presentation.
       </p>
-    </main>
+    </article>
     <footer class="author">
       <a href="#">
         <img class="avatar" src="assets/images/image-avatar.webp" alt="Avatar of article author Greg Hooper" />
