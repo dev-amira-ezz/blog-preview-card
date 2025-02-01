@@ -42,7 +42,6 @@ Users should be able to:
 - Mobile-first workflow
 
 ### What I learned
-- I learned that sometimes trying to have perfect, semantic code makes things more complicated. I simply divided the main area into sections.
 - Media query doesn't have to be very complicated.
 - Classes make things very easy. I just add the same class to all the elements that I want to add the feature to.
 - I practiced doing pull request in this project to simulate real life work flow.
